@@ -1,0 +1,29 @@
+.address, tbody, thead{
+    width: 100%;
+    border-spacing: 0px 4px;
+}
+.address th, tbody th {
+  font-size: 13px;
+  font-weight: normal;
+  background: #b9c9fe;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+  padding: 8px;
+}
+.address td, tbody td, thead td{
+  background: #e8edff;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+  padding: 8px;
+}
+.address tr:hover td, tbody tr:hover td {
+  background: #ccddff; 
+}
+
+tbody td, thead td{
+    width: 125px;
+    height: 32px;
+  text-align: center;
+}
