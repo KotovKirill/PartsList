@@ -46,7 +46,6 @@ public class MainServlet extends HttpServlet {
         }
 
         if (req.getParameter("createPart") != null) {
-            System.out.println("hjkl");
             Integer count = Integer.valueOf(req.getParameter("count"));
             Integer need = Integer.valueOf(req.getParameter("need"));
             String name = req.getParameter("name");
